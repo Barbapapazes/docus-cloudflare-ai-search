@@ -1,8 +1,20 @@
 import { addComponent, createResolver, defineNuxtModule } from '@nuxt/kit'
 
 export interface ModuleOptions {
-  client: ModuleClientOptions
-  ui: ModuleUiOptions
+  client?: {
+    debounceMs?: number
+    enabled?: boolean
+    endpoint?: string
+    query?: Partial<ModuleClientOptionsQuery>
+    request?: {
+      retrievalOptions?: Record<string, unknown> & { max_num_results?: number }
+      timeoutMs?: number
+    }
+  }
+  ui?: {
+    messages?: Partial<ModuleMessages>
+    placeholder?: string
+  }
 }
 
 interface ModuleMessages {
@@ -12,30 +24,12 @@ interface ModuleMessages {
   recent: string
 }
 
-interface ModuleUiOptions {
-  messages: ModuleMessages
-  placeholder: string
-}
-
 interface ModuleClientOptionsQuery {
   maxLength: number
   minLength: number
 }
 
-interface ModuleClientOptionsRequest {
-  retrievalOptions: Record<string, unknown>
-  timeoutMs: number
-}
-
-interface ModuleClientOptions {
-  debounceMs: number
-  enabled: boolean
-  endpoint: string
-  query: ModuleClientOptionsQuery
-  request: ModuleClientOptionsRequest
-}
-
-export default defineNuxtModule<ModuleOptions>({
+export default defineNuxtModule<ModuleOptions>().with({
   meta: {
     name: 'docus-cloudflare-ai-search',
     configKey: 'aiSearch',

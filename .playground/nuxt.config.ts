@@ -1,3 +1,5 @@
+import process from 'node:process'
+
 export default defineNuxtConfig({
   extends: ['docus'],
   modules: [
@@ -11,6 +13,6 @@ export default defineNuxtConfig({
     },
   },
   cloudflareAISearchSync: {
-    enabled: true,
+    enabled: process.env.CI !== 'true',
   },
 })
