@@ -1,6 +1,6 @@
 {
   "name": "docus-cloudflare-ai-search",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Replace Docus default search with Cloudflare AI Search",
   "author": "Estéban Soubiran <esteban@soubiran.dev>",
   "license": "MIT",
