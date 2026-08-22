@@ -10,3 +10,7 @@ allowBuilds:
 
 ignoredBuiltDependencies:
   - vue-demi
+
+minimumReleaseAgeExclude:
+  - '@nuxt/ui@4.11.0'
+  - cloudflare-ai-search-sync@0.0.1
