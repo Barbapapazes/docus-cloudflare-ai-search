@@ -13,4 +13,4 @@ ignoredBuiltDependencies:
 
 minimumReleaseAgeExclude:
   - '@nuxt/ui@4.11.0'
-  - cloudflare-ai-search-sync@0.0.1
+  - cloudflare-ai-search-sync@0.0.1 || 0.1.0 || 0.1.2
