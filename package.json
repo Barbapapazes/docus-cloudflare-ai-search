@@ -36,7 +36,7 @@
     "dist"
   ],
   "scripts": {
-    "build": "node-module-build prepare && nuxt-module-build build",
+    "build": "nuxt-module-build prepare && nuxt-module-build build",
     "prepack": "pnpm run build",
     "dev": "pnpm run dev:prepare && nuxt dev .playground",
     "dev:build": "nuxt build .playground",
