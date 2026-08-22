@@ -1,0 +1,12 @@
+packages:
+  - .
+  - .playground
+
+allowBuilds:
+  better-sqlite3: false
+  esbuild: false
+  unrs-resolver: false
+  vue-demi: false
+
+ignoredBuiltDependencies:
+  - vue-demi

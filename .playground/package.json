@@ -1,0 +1,13 @@
+{
+  "name": "playground",
+  "scripts": {
+    "build": "nuxt build"
+  },
+  "dependencies": {
+    "better-sqlite3": "^12.11.1",
+    "cloudflare-ai-search-sync": "^0.0.1",
+    "docus": "latest",
+    "docus-cloudflare-ai-search": "workspace:*",
+    "nuxt": "^4.4.8"
+  }
+}
