@@ -1,7 +1,7 @@
 import type { SearchResult } from '../types/search-result'
 
 export function toSearchItem(result: SearchResult) {
-    return {
+  return {
     label: result.title,
     description: result.description,
     to: result.url,

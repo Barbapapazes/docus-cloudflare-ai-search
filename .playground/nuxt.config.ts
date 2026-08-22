@@ -2,7 +2,7 @@ export default defineNuxtConfig({
   extends: ['docus'],
   modules: [
     'docus-cloudflare-ai-search',
-    'cloudflare-ai-search-sync/nuxt'
+    'cloudflare-ai-search-sync/nuxt',
   ],
   aiSearch: {
     client: {
@@ -11,6 +11,6 @@ export default defineNuxtConfig({
     },
   },
   cloudflareAISearchSync: {
-    enabled: true
+    enabled: true,
   },
 })
