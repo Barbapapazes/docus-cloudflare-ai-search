@@ -1,16 +1,13 @@
 <script setup lang="ts">
 import type { ContentNavigationItem } from '@nuxt/content'
 import { useRoute, useRuntimeConfig } from '#app'
-import { computed, onBeforeUnmount, watch, type Ref } from '#imports'
+import { computed, onBeforeUnmount, watch, useContentSearch } from '#imports'
+import { LazyUContentSearch } from '#components'
 import { useSearch } from '../composables/useSearch'
 import { useRememberSearch } from '../composables/useRememberSearch'
 import { toSearchItem } from '../mappers/search-item'
 import { toNavigationItems } from '../mappers/navigation-items'
 import type { CommandPaletteGroup, ContentSearchItem } from '@nuxt/ui'
-
-declare const useContentSearch: () => {
-  open: Ref<boolean>
-}
 
 const props = defineProps<{
   navigation?: ContentNavigationItem[]

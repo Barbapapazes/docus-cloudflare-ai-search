@@ -34,6 +34,17 @@ export default defineNuxtModule<ModuleOptions>().with({
     name: 'docus-cloudflare-ai-search',
     configKey: 'aiSearch',
   },
+  moduleDependencies: {
+    "@nuxt/ui": {
+       version: '>=4.8.0',
+       defaults: {
+        content: true
+       },
+    },
+    "@nuxt/content": {
+      version: '>=3.15.0'
+    }
+  },
   defaults: {
     ui: {
       placeholder: 'Search documentation',
