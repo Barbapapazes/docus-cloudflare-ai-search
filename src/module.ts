@@ -35,15 +35,15 @@ export default defineNuxtModule<ModuleOptions>().with({
     configKey: 'aiSearch',
   },
   moduleDependencies: {
-    "@nuxt/ui": {
-       version: '>=4.8.0',
-       defaults: {
-        content: true
-       },
+    '@nuxt/ui': {
+      version: '>=4.8.0',
+      defaults: {
+        content: true,
+      },
     },
-    "@nuxt/content": {
-      version: '>=3.15.0'
-    }
+    '@nuxt/content': {
+      version: '>=3.15.0',
+    },
   },
   defaults: {
     ui: {
