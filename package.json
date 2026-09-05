@@ -66,7 +66,7 @@
     "@types/node": "^24.13.3",
     "bumpp": "^12.2.1",
     "changelogithub": "^15.0.4",
-    "eslint": "^10.8.0",
+    "eslint": "^10.8.1",
     "nuxt": "^4.5.2",
     "taze": "^19.9.0",
     "typescript": "^6.0.3",
