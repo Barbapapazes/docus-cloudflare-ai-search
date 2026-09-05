@@ -5,7 +5,7 @@
   "author": "Estéban Soubiran <esteban@soubiran.dev>",
   "license": "MIT",
   "type": "module",
-  "packageManager": "pnpm@11.21.0",
+  "packageManager": "pnpm@11.25.0",
   "funding": "https://github.com/sponsors/Barbapapazes",
   "homepage": "https://github.com/Barbapapazes/docus-cloudflare-ai-search#readme",
   "repository": {
