@@ -61,15 +61,15 @@
     "nuxt": "^4.0.0"
   },
   "devDependencies": {
-    "@nuxt/eslint-config": "^1.17.0",
-    "@nuxt/module-builder": "^1.0.3",
-    "@types/node": "^24.13.3",
-    "bumpp": "^12.2.1",
-    "changelogithub": "^15.0.4",
-    "eslint": "^10.8.0",
-    "nuxt": "^4.5.2",
-    "taze": "^19.9.0",
-    "typescript": "^6.0.3",
-    "vue-tsc": "^3.3.9"
+    "@nuxt/eslint-config": "1.17.0",
+    "@nuxt/module-builder": "1.0.3",
+    "@types/node": "24.13.3",
+    "bumpp": "12.2.1",
+    "changelogithub": "15.0.4",
+    "eslint": "10.8.1",
+    "nuxt": "4.5.2",
+    "taze": "19.17.2",
+    "typescript": "6.0.3",
+    "vue-tsc": "3.3.10"
   }
 }
