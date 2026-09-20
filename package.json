@@ -68,7 +68,7 @@
     "changelogithub": "^15.0.4",
     "eslint": "^10.8.0",
     "nuxt": "^4.5.2",
-    "taze": "^19.9.0",
+    "taze": "^21.0.0",
     "typescript": "^6.0.3",
     "vue-tsc": "^3.3.9"
   }
