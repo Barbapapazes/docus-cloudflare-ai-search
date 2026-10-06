@@ -69,7 +69,7 @@
     "eslint": "^10.8.0",
     "nuxt": "^4.5.2",
     "taze": "^19.9.0",
-    "typescript": "^6.0.3",
+    "typescript": "^7.0.0",
     "vue-tsc": "^3.3.9"
   }
 }
